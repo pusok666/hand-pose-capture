@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+# PyCharm
+.idea/
+# Virtual environments
+.venv/
+venv/
+# 采集产生的视频、图片、JSON
+output/
+# MediaPipe 模型
+models/*.task
+# Jupyter
+.ipynb_checkpoints/
+# Windows
+Thumbs.db
+Desktop.ini
