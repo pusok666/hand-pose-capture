@@ -4,7 +4,7 @@ import json
 import mediapipe as mp
 from pose.landmark_smoother import LandmarkSmoother
 from pathlib import Path
-from pose_capture.pose.hand_metrics import analyze_hand
+from pose.hand_metrics import analyze_hand
 from capture.camera import Camera
 from pose.mediapipe_backend import MediaPipeHandBackend
 from visualization.skeleton_drawer import draw_hand_skeleton
